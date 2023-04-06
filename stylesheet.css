@@ -1,0 +1,57 @@
+.calculator-container {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 400px;
+}
+
+.calculator-container p {
+    margin: 0 auto;
+    font-style: oblique;
+    font-size : 50px;
+}
+
+.screen {
+    width: 60%;
+    height: 100px;
+    background-color: #252525;
+    color: white;
+    text-align: right;
+    font-size: 36px;
+    padding: 0 20px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.keys {
+    margin : 0 auto;
+    width: 60%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: white;
+    width: 25%;
+}
+
+.all-clear, .zero-btn {
+    width: 50%;
+}
+
+.operator, .equal-sign {
+    background-color: blue;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: blue;
+}
